@@ -1,0 +1,24 @@
+body {
+    color: #7e02e3;
+    background-color: #15c6ed;
+    font-size: 18pt;
+    text-align: center;
+}
+
+a:hover {
+color:aquamarine;
+
+}
+
+#comeco {
+    color: black;
+    font-size: 18pt;
+    text-align: center;
+}
+
+Table {
+
+    color: red;
+    text-align: center;
+
+}
