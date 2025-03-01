@@ -1,0 +1,30 @@
+#linhaa 
+{
+ color: brown;
+ text-align: center;
+ 
+}
+
+#cabecalho 
+{
+color:darkgreen;
+width: 1480px;
+height: 100px;
+background-color:bisque;
+text-align: center;
+border: 5px;
+border-color: darkblue;
+border-style:solid;
+padding: 50px;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+#textos 
+{
+color: indigo;
+text-align: center;
+
+}
