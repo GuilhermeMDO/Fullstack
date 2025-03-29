@@ -1,0 +1,184 @@
+<link href="desenho.css" rel="stylesheet">
+
+<canvas id="canvas" width ="300" height = "300"></canvas>
+
+<script>
+
+let canvas = document.getElementById('canvas');
+let ctx = canvas.getContext('2d');
+
+    ctx.beginPath();
+    ctx.lineWidth = 2;
+    ctx.fillStyle = 'blue';
+    ctx.fillRect (0, 0, 50, 50);
+    ctx.closePath();
+    
+    ctx.beginPath();
+    ctx.lineWidth = 2;
+    ctx.fillStyle = 'red';
+    ctx.fillRect (250, 0, 50, 50);
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.lineWidth = 2;
+    ctx.fillStyle = 'black';
+    ctx.fillRect (260, 260, 40, 40);
+    ctx.closePath();
+    
+    ctx.beginPath();
+    ctx.lineWidth = 2;
+    ctx.fillStyle = 'black';
+    ctx.fillRect (220, 260, 40, 40);
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.lineWidth = 2;
+    ctx.fillStyle = 'black';
+    ctx.fillRect (260, 220, 40, 40);
+    ctx.closePath();
+
+
+
+        ctx.beginPath();
+    ctx.lineWidth = 2;
+    ctx.fillStyle = 'yellow';
+    ctx.fillRect (0, 260, 40, 40);
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.lineWidth = 2;
+    ctx.fillStyle = 'yellow';
+    ctx.fillRect (0, 220, 40, 40);
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.lineWidth = 2;
+    ctx.fillStyle = 'yellow';
+    ctx.fillRect (40, 260, 40, 40);
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.lineWidth = 2;
+    ctx.fillStyle = 'cyan';
+    ctx.fillRect (0, 115, 30, 75);
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.lineWidth = 2;
+    ctx.fillStyle = 'cyan';
+    ctx.fillRect (250, 125, 50, 50);
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.lineWidht = 2;
+    ctx.strokeStyle = 'green';
+    ctx.lineTo(0, 150);
+    ctx.lineTo(300, 150);
+    ctx.stroke();
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.lineWidht = 2;
+    ctx.strokeStyle = 'blue';
+    ctx.moveTo(0, 0);
+    ctx.lineTo(150, 150);
+    ctx.stroke();
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.lineWidht = 2;
+    ctx.strokeStyle = 'black';
+    ctx.moveTo(150, 150);
+    ctx.lineTo(150, 400);
+    ctx.stroke();
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.lineWidht = 2;
+    ctx.strokeStyle = 'red';
+    ctx.moveTo(300, 0);
+    ctx.lineTo(150, 150);
+    ctx.stroke();
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.lineWidth = 2;
+    ctx.fillStyle = 'red';
+    ctx.fillRect (100, 150, 50, 50);
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.lineWidth = 2;
+    ctx.fillStyle = 'cyan';
+    ctx.strokeStyle = 'blue';
+    ctx.arc(150, 125, 13, 0, 2 * Math.PI);
+    ctx.fill();
+    ctx.stroke();
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.lineWidth = 2;
+    ctx.fillStyle = 'yellow';
+    ctx.strokeStyle = 'green';
+    ctx.arc(90, 230, 20, 0, 2 * Math.PI);
+    ctx.fill();
+    ctx.stroke();
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.lineWidth = 2;
+    ctx.fillStyle = 'yellow';
+    ctx.strokeStyle = 'green';
+    ctx.arc(210, 230, 20, 0, 2 * Math.PI);
+    ctx.fill();
+    ctx.stroke();
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.lineWidth = 2;
+    ctx.fillStyle = 'cyan';
+    ctx.strokeStyle = 'green';
+    ctx.arc(150, 300, 30, 0, 2 * Math.PI);
+    ctx.fill();
+    ctx.stroke();
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.lineWidth = 2;
+    ctx.strokeStyle = 'green';
+    ctx.arc(150, 300, 60, 0, 1.5 * Math.PI);
+    ctx.stroke();
+    ctx.closePath();
+    
+    ctx.beginPath();
+    ctx.lineWidth = 2;
+    ctx.strokeStyle = 'green';
+    ctx.arc(150, 300, 50, 11, 0 * Math.PI);
+    ctx.stroke();
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.lineWidth = 2;
+    ctx.strokeStyle = 'green';
+    ctx.arc(150, 150, 60, 0, 1 * Math.PI, true);
+    ctx.stroke();
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.lineWidth = 2;
+    ctx.strokeStyle = 'green';
+    ctx.arc(150, 150, 90, 1.75 * Math.PI , 2 * Math.PI); 
+    ctx.stroke();
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.lineWidth = 2;
+    ctx.strokeStyle = 'green';
+    ctx.arc(150, 150, 90, 1 * Math.PI , 1.25 * Math.PI); 
+    ctx.stroke();
+    ctx.closePath();
+
+
+</script>
+
+
